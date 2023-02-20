@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <p>Email: <a href="mailto:aragao@poli.ufrj.br">aragao@poli.ufrj.br</a></p>
+    <p>Phone Number: <a href="tel:+5521999999999">+55 21 99999-9999</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/ruhany-aragao-0b0b4b1b1/"
+        >Linkedin</a
+      >
+    </p>
+    <!--add form to contact-->
+    <form
+      action="mailto:aragao@poli.ufrj.br"
+      method="POST"
+      autocomplete="on"
+      enctype="text/plain"
+    >
+      <label for="email">Email</label>
+      <input type="email" name="yourEmail" id="email" />
+      <p></p>
+      <label for="name">Name</label>
+      <input type="name" name="yourName" id="name" />
+      <p></p>
+      <label for="message">Message</label>
+      <hr />
+      <textarea name="yourMessage" id="message" cols="60" rows="10"></textarea>
+      <p></p>
+      <label for="subscribe">Subscribe to our newsletter ?</label>
+      <input type="checkbox" name="subscribe" id="subscribe" />
+      <hr />
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
